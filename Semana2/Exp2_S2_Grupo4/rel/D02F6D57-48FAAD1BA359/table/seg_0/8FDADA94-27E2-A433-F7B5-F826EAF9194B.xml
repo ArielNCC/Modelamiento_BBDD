@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FDADA94-27E2-A433-F7B5-F826EAF9194B" name="VUELO">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>83304CE2-A203-F917-8273-188835D12024</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_vuelo" id="5692FD79-93C9-6768-2A83-BA0E13F3477C">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>0E030D98-EA8C-6D04-69D1-3A9A6698E596</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_despegue" id="716727C6-D58A-54E0-1872-B71BB642C2F7">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>E7BF0D61-943E-F8FB-9344-B4E3E253C1EF</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_despegue" id="7AAB050A-3EAF-53BE-C6A3-26139DBC5DDF">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>9E6C04B6-65CF-36AB-2840-66EB606AC1A2</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad_despegue" id="4E7D9A7E-A430-5142-B19B-77E8A1A5E409">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>992E5AF9-9ED1-12D9-DB4D-C48145E5C8C9</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_llegada" id="7705ADCC-3BC1-D4A5-F38C-752BD98C96D9">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>52463016-F213-B79B-8AED-AD0867F29265</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_llegada" id="2A221AD3-B8BF-C997-AF4F-AADCCF23AA59">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>386D96FB-9F62-2EEF-82F2-C4F24C92B45B</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad_llegada" id="2D5C8A56-F59C-5BEF-9C6A-88E15FEDE8FF">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>9A7129B6-96B3-1C4D-E155-FDA4A59236C9</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVION_numero_matricula" id="39ABAB28-BB6D-9B9E-5124-14C8CBCF8545">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>9CDC872F-4969-791A-F0D4-5C2DB3A2D03B</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25A8DB2C-68DF-98ED-2E70-3FAFD463D371" referredColumn="A47504DE-D081-1E5D-5A76-3BE057FEFCFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36DD6595-ABF5-C4B6-E557-72962B7FFD6B" name="VUELO_PK">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>CF4670C9-BEC5-5F62-252A-AA2FB49D3077</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5692FD79-93C9-6768-2A83-BA0E13F3477C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE610D9C-AABB-55D7-FD6B-F2DF72FEFF73" name="VUELO_AVION_FK">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>7BD7CC75-ECF3-A32D-927D-B15F59C0CE51</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39ABAB28-BB6D-9B9E-5124-14C8CBCF8545"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DD707C9-7FF8-7E08-E1EC-AF53B25EEC0C" name="PASAJERO">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 15:57:19 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_documento" id="2B095AA6-7B09-C955-D7EF-BAF400C09CA6">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 15:58:26 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_completo" id="FF872E3E-0F6A-4610-BCFB-02224210A6A9">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 15:58:45 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="282456CE-9F00-7F2D-6C5E-0D9563A78287">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 15:59:10 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="C774B8A0-3858-F824-F85E-84B93121A48D">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 15:59:26 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_contacto" id="C1EEA4F2-5783-7350-9ED2-997DF166AD8D">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 15:59:38 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo_electronico" id="47BCAD70-F442-84FB-BF64-2555D9556D18">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:00:46 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B58D61D-CE80-C718-15D5-E973B4B6C2B9" name="PASAJERO PK">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 15:58:42 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2B095AA6-7B09-C955-D7EF-BAF400C09CA6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

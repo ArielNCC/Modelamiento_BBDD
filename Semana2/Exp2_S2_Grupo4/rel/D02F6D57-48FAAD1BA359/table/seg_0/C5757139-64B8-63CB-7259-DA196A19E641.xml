@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5757139-64B8-63CB-7259-DA196A19E641" name="ADMINISTRATIVO_VUELO">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADMINISTRATIVO_rut" id="6730ECA4-F195-384A-3428-EABDF0023A7C">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08332CB9-D6EB-6C4C-ACCE-651D23076ABF" referredColumn="7D0D6807-29E0-905B-C06B-F72A30A48BEA"/>
+</associations>
+</Column>
+<Column name="VUELO_numero_vuelo" id="95AB6848-7BFE-8712-EE52-BB409E40FEC0">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE83E222-E334-6F5B-DA71-F016745214C7" referredColumn="5692FD79-93C9-6768-2A83-BA0E13F3477C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7149398-3B0D-9AD6-39E1-1AA56E957823" name="ADMINISTRATIVO_VUELO_PK">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6730ECA4-F195-384A-3428-EABDF0023A7C"/>
+<colUsage columnID="95AB6848-7BFE-8712-EE52-BB409E40FEC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4CAC42A-98D3-F24B-D76C-D16B829BA329" name="ADMINISTRATIVO_VUELO_ADMINISTRATIVO_FK">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>539CC616-26F3-08E6-DE6B-7BDF67B756D6</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6730ECA4-F195-384A-3428-EABDF0023A7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC96C5B3-DEE4-306E-6674-0C95D7DF56B1" name="ADMINISTRATIVO_VUELO_VUELO_FK">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>539CC616-26F3-08E6-DE6B-7BDF67B756D6</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95AB6848-7BFE-8712-EE52-BB409E40FEC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

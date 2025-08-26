@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VUELO_RESERVA" directorySegmentName="seg_0" id="FB87951B-F68E-484E-9612-CFB39B1FEFBC">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:10:08 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<sourcePk>CF4670C9-BEC5-5F62-252A-AA2FB49D3077</sourcePk>
+<targetPk>41707BCC-0D6D-3938-7A6E-C91274CEDFF2</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>83304CE2-A203-F917-8273-188835D12024</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>08E3BC97-979B-0C79-7F54-1D682A489ADE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="numero_asiento" id="96163785-CFF1-0E47-5983-8BAA6BC03A07">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 17:05:27 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

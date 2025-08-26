@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69BBC0E9-B044-0188-03DE-6CB10891FC2D" name="PILOTO">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>82FC7F93-C6D4-36F6-C2C4-AC781DF9C8CB</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="E897AE42-EBFF-2351-8CDA-B481921406D2">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>7AC73CCB-270A-3BA5-AE15-03B6ABD58E8E</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65235AA5-7621-90B1-4542-A354A6EB48C5" referredColumn="170E7549-422A-084C-7D01-A600E6B54DE5"/>
+</associations>
+</Column>
+<Column name="horas_vuelo_acumuladas" id="5C017619-EF10-49CD-E1E5-D374188682C1">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>BE8B369C-E45F-B85B-DDEC-1FE225E74604</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="afp" id="97919826-871A-B95C-6B74-691FE5252178">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>D44841EE-FF86-54F4-3F5A-1F9C0982260D</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_completo" id="088E98BC-A89E-A115-7991-D5460FB81078">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 17:06:02 UTC</createdTime>
+<generatorID>187B7694-793A-2B2A-0DDD-16D94C43849D</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargo" id="2E1AE446-3807-09EB-2DC3-5EA250CA78E5">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 17:06:02 UTC</createdTime>
+<generatorID>391BE9B0-254B-8290-101C-31861C812983</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="D14A077B-478E-6B7F-D0CF-383D0FD9E8AE">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 17:06:02 UTC</createdTime>
+<generatorID>74ED5701-B095-B431-BE23-0CC6A8997A6A</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo_base" id="44B84461-4577-7B55-E32A-18ECF38D277D">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 17:06:02 UTC</createdTime>
+<generatorID>EBB62678-C0CB-A65E-85AD-D1BA794C73AD</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="5CBC37DB-6048-90A4-FB8C-6276C25D40B7">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 17:06:02 UTC</createdTime>
+<generatorID>B6569E5A-CE40-1341-9741-7BC41CD27F56</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="569900D8-058B-F308-7619-BBA6CEDE80F9">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 17:06:02 UTC</createdTime>
+<generatorID>AA142239-0FB5-343B-ED3E-D1D29AABD57C</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_principal" id="E2A9837D-7ABA-136B-B5DE-FC98E9F62DE0">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 17:06:02 UTC</createdTime>
+<generatorID>246E9913-D113-24D1-38DD-435D5FBAE0F8</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_contacto" id="CD323BDE-68A1-855E-FA31-C438FC05A521">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 17:06:02 UTC</createdTime>
+<generatorID>AE7C6B11-2950-356E-8205-65097BA1A7A3</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B094B81-A279-49A9-F601-EED8E7A703FB" name="PILOTO_PK">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>80D6E250-00DC-AA37-7E10-F84564F261B2</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E897AE42-EBFF-2351-8CDA-B481921406D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4D51D0E-B4A8-C49D-386E-6785CC90AD0E" name="PILOTO_EMPLEADO_FK">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>3A3C93D5-64B0-E1CB-AA81-A23C050489F0</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E897AE42-EBFF-2351-8CDA-B481921406D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

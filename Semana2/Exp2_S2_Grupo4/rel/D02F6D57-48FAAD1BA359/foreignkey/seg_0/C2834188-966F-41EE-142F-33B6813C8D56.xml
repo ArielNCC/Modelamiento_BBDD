@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C2834188-966F-41EE-142F-33B6813C8D56" containerWithKeyObject="D98343AC-9659-EF02-5FA8-1FCA2942B989" localFKIndex="8FDB6121-6F96-2BC6-F887-A4F4DAB371F0" name="RESERVA_PASAJERO_FK">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>CB7C5139-7908-A649-452E-AE7C776CCB53</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<referredTableLongName>PASAJERO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>171CA7C8-4846-82CB-1C8D-C738F6C9A150</referredTableID>
+<keyObject>F2FB0184-7628-25E4-F231-C14EBC1683DC</keyObject>
+<referredKeyID>F2FB0184-7628-25E4-F231-C14EBC1683DC</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>numero_documento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CC639886-1746-8974-9120-5466504F67EE" name="EMPLEADO">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 15:57:32 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributeInherType>All atributes</attributeInherType>
+<discriminatorAttributeID>391BE9B0-254B-8290-101C-31861C812983</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="7AC73CCB-270A-3BA5-AE15-03B6ABD58E8E">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:14:05 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_completo" id="187B7694-793A-2B2A-0DDD-16D94C43849D">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:14:10 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo" id="391BE9B0-254B-8290-101C-31861C812983">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:22:01 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="74ED5701-B095-B431-BE23-0CC6A8997A6A">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:14:12 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sueldo_base" id="EBB62678-C0CB-A65E-85AD-D1BA794C73AD">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:14:14 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ingreso" id="B6569E5A-CE40-1341-9741-7BC41CD27F56">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:14:17 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="AA142239-0FB5-343B-ED3E-D1D29AABD57C">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:14:21 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_principal" id="246E9913-D113-24D1-38DD-435D5FBAE0F8">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:14:24 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_contacto" id="AE7C6B11-2950-356E-8205-65097BA1A7A3">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:14:26 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80D6E250-00DC-AA37-7E10-F84564F261B2" name="EMPLEADO PK">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:15:17 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7AC73CCB-270A-3BA5-AE15-03B6ABD58E8E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

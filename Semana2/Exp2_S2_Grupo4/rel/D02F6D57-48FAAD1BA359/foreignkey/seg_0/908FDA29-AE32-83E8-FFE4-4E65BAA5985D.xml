@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="908FDA29-AE32-83E8-FFE4-4E65BAA5985D" containerWithKeyObject="EACAB298-C04E-248F-D863-A2BC53E8D389" localFKIndex="D6A5E410-147E-B7ED-2A2A-6E3026FA3AF6" name="Relation_8_VUELO_FK">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:38:34 UTC</createdTime>
+<generatorID>2C24F217-F6D5-7D6F-D511-22374FB4F8F1</generatorID>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<referredTableLongName>VUELO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8FDADA94-27E2-A433-F7B5-F826EAF9194B</referredTableID>
+<keyObject>36DD6595-ABF5-C4B6-E557-72962B7FFD6B</keyObject>
+<referredKeyID>36DD6595-ABF5-C4B6-E557-72962B7FFD6B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numero_vuelo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

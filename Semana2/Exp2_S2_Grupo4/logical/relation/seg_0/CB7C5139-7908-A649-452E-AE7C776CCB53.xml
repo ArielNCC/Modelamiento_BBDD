@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PASAJERO_RESERVA" directorySegmentName="seg_0" id="CB7C5139-7908-A649-452E-AE7C776CCB53">
+<createdBy>ariel</createdBy>
+<createdTime>2025-08-21 16:06:23 UTC</createdTime>
+<ownerDesignName>Exp2_S2_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="D02F6D57-BEFE-164B-E7C5-48FAAD1BA359" value="true"/>
+</engineerTo>
+<sourcePk>8B58D61D-CE80-C718-15D5-E973B4B6C2B9</sourcePk>
+<targetPk>41707BCC-0D6D-3938-7A6E-C91274CEDFF2</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0DD707C9-7FF8-7E08-E1EC-AF53B25EEC0C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>08E3BC97-979B-0C79-7F54-1D682A489ADE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
