@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73CDDD56-ED3C-D71C-6F35-356ED2FD7905" name="DOMINIO_IDIOMA">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 18:29:56 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="FC19D613-A8EC-8BA0-90D4-890F20FC837A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_dominio" id="3660719B-57CC-F11D-9B66-A982E8D5BAFD">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 18:30:05 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="FC19D613-A8EC-8BA0-90D4-890F20FC837A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_idioma" id="409AB3F7-0EF3-C18F-6EA9-278541780C5D">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 18:30:10 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="FC19D613-A8EC-8BA0-90D4-890F20FC837A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6AC9538-85AE-33D7-676F-B1B102E39ED1" name="DOMINIO_IDIOMA PK">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 19:13:48 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="FC19D613-A8EC-8BA0-90D4-890F20FC837A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3660719B-57CC-F11D-9B66-A982E8D5BAFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

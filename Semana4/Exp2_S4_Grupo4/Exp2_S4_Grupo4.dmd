@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exp2_S4_Grupo4" id="A0181C71-8E16-4945-B83B-39DE0D17BAD2" version="3.5">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 08:33:35 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A0181C71-8E16-4945-B83B-39DE0D17BAD2</designId>
+</OSDM_Design>

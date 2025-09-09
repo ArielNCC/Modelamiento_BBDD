@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3289ACCB-E9FF-53E8-D0F6-FE6367CD81AA" name="SITIO_WEB">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 18:22:56 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="FC19D613-A8EC-8BA0-90D4-890F20FC837A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sitio" id="505A0F46-70DF-EBDC-8B42-445209D4CE3D">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 18:25:07 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="FC19D613-A8EC-8BA0-90D4-890F20FC837A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C105D27C-EB04-347B-4650-DF250367E38B">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 18:25:14 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="FC19D613-A8EC-8BA0-90D4-890F20FC837A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url" id="F5F63345-EEF4-7CA7-9CE9-39883D6F05CB">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 18:25:17 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="FC19D613-A8EC-8BA0-90D4-890F20FC837A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3B94AC6-0AF1-25F8-1AD1-F0B688457E6B" name="SITIO_WEB PK">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 19:13:58 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="FC19D613-A8EC-8BA0-90D4-890F20FC837A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>505A0F46-70DF-EBDC-8B42-445209D4CE3D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPRESA_POSTULACION" directorySegmentName="seg_0" id="BEE769CD-EE54-1B07-AAE5-4FBF88B0C4DE">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 18:34:55 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="FC19D613-A8EC-8BA0-90D4-890F20FC837A" value="true"/>
+</engineerTo>
+<sourcePk>5402CA4D-51C3-9404-8932-0F19A1CFCC4C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D5A78D2A-60F4-C7CC-A1E8-5E90F1B5ECC4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4D39BAD0-3AB8-9EA2-61C5-DCB3B37C07FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

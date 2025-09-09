@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTULANTE_IDIOMAS" directorySegmentName="seg_0" id="8555DAED-E03C-3413-C5FA-926B0D0BF044">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 18:33:06 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="FC19D613-A8EC-8BA0-90D4-890F20FC837A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>34FEE621-C040-8010-EE81-0386277622E9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>73CDDD56-ED3C-D71C-6F35-356ED2FD7905</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

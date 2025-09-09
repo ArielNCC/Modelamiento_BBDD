@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="AE8136F5-1265-4661-6197-8C3C0D255030" mainViewID="EDD3939D-3CE8-19FB-29EF-714D9B81DD64">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 08:33:35 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

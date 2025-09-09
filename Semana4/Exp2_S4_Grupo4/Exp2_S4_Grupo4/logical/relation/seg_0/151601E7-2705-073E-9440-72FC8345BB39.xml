@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTULANTE_SITIO_WEB" directorySegmentName="seg_0" id="151601E7-2705-073E-9440-72FC8345BB39">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 18:32:35 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="FC19D613-A8EC-8BA0-90D4-890F20FC837A" value="true"/>
+</engineerTo>
+<sourcePk>56F10D98-A196-4F29-0239-FAD46F9F3226</sourcePk>
+<targetPk>D3B94AC6-0AF1-25F8-1AD1-F0B688457E6B</targetPk>
+<identifying>false</identifying>
+<nameOnSource>tener</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>34FEE621-C040-8010-EE81-0386277622E9</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3289ACCB-E9FF-53E8-D0F6-FE6367CD81AA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

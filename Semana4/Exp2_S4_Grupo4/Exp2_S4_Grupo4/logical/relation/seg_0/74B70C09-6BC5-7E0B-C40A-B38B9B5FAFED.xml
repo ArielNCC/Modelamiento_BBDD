@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTULANTE_GRADO_ACADEMICO" directorySegmentName="seg_0" id="74B70C09-6BC5-7E0B-C40A-B38B9B5FAFED">
+<createdBy>oyash</createdBy>
+<createdTime>2025-09-08 18:33:41 UTC</createdTime>
+<ownerDesignName>Exp2_S4_Grupo4</ownerDesignName>
+<engineerTo>
+<item key="FC19D613-A8EC-8BA0-90D4-890F20FC837A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>34FEE621-C040-8010-EE81-0386277622E9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BFB8E822-D1FB-19D0-2156-F20B56F7E2C8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
